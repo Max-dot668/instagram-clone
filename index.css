@@ -4,10 +4,14 @@ html, body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h3, p {
+    margin: 0;
+}
+
 .heading-section {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 16px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #d1d5db;
 }
 
@@ -20,4 +24,38 @@ html, body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-header {
+    display: flex;
+    padding: 18px;
+    margin-top: 18px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-pic {
+    margin: 18px 0 32px 0;
+}
+
+.button-icons {
+    display: flex;
+    gap: 42px;
+    height: 60px;
+}
+
+.button-icons, 
+.feed-interactions,
+.profile-header {
+    padding-left: 24px;
 }
