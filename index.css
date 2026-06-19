@@ -2,10 +2,20 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EDEDED;
 }
 
 h3, p {
     margin: 0;
+}
+
+.heading-section,
+.person {
+    background-color: #ffff;
+}
+
+.person {
+    margin-bottom: 48px;
 }
 
 .heading-section {
